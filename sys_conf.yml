@@ -1,0 +1,27 @@
+sound_device:
+  input: 3 # your input device / vb out
+  output: 3 #your output device/ vb in
+  interim_check: True
+delay_th: 120
+mirror: 1
+company_name: 'XYZ'
+os: 'windows'
+version: '1.0.0'
+dated: '18/06/2024 @ 5:34 PM'
+running_mode : 'PRO' # if you have to run try.py make it "TRY" else "PRO"
+auto_unpause: False # its value should be True or False to make auto pause/unpause ; Pleae check the spelling and case; it should be exactly that I specified
+chrome_driver: './chrome_driver/chromedriver.exe'
+no_response_time: 3.0
+pause_duration: 0.5
+block_size: 4000
+age:
+  low: 40
+  high: 81
+dialer_details:
+  transfer: 2
+  pages: ['3','4'] # page 2: welcome page page 3: phone login page 4: user and campaign
+  user_id: 8001
+  password: '800agent800'
+  url: 'https://hmzbpo.blmdialer.com/agc/vicidial.php'
+  preset: 4
+  campaign_num: 2
